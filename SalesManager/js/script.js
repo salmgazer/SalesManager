@@ -33,7 +33,7 @@ function Login(){
         document.getElementById("error_area").innerHTML = '<div class="chip red white-text">Empty password<i class="material-icons">close</i></div>';
         return;
     }
-    var strUrl = "logic/controller.php?testingUserUsername="+username+"&testingUserPassword="+password;
+    var strUrl = "server/logic/controller.php?cmd=1&username="+username+"&password="+password;
     var objResult = sendRequest(strUrl);
     var errorArea = document.getElementById("error_area");
     document.getElementById("error_area").innerHTML = '<div class="progress"><div class="indeterminate"></div></div>';
