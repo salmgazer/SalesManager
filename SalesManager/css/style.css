@@ -39,7 +39,6 @@ nav{
 .loginbtn{
     margin-bottom: 30px;
     width: 60%;
-    font-weight: lighter;
 }
 
 .loginfooter{
@@ -59,7 +58,9 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-
+.login_area{
+    margin-bottom: -100px;
+}
 /*Media Queries*/
 /* ----------- Galaxy Tab 10.1 ----------- */
 
