@@ -59,7 +59,7 @@ nav{
     margin-right: auto;
 }
 .login_area{
-    margin-bottom: -100px;
+    margin-top: 50px;
 }
 /*Media Queries*/
 /* ----------- Galaxy Tab 10.1 ----------- */
@@ -76,6 +76,9 @@ nav{
 .lowerfooterright{
     margin-right: 10px;
 }
+    .login_area{
+        margin-top: 35px;
+    }
 }
 
 /* ----------- Galaxy S5 ----------- */
@@ -93,5 +96,9 @@ nav{
 .lowerfooterright{
     margin-right: 10px;
 }
+
+    .login_area{
+        margin-top: 20px;
+    }
 
 }
